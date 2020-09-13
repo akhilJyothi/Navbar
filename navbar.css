@@ -1,18 +1,41 @@
 .navbar{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.925);
     margin: 2.5vw;;
-    display: flex;
-    
+    display: grid;
+    border-radius: 10px;
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
-
 li{
-    color: #f5f5f6;
-    /* text-decoration: none; */
-    list-style: none;
-    padding:20px;
-    /* display:flex; */
+    padding-bottom: 40px;
+    margin-right: 0px;
 }
-a{
-    text-decoration: none;
-    color: #f5f5f6;
+ /* span{
+    color:#f5f5f6
+}  */
+span{
+    font-size: 0.9rem;
 }
+.dean{
+    font-size: 0.45rem;
+}
+@font-face{
+    font-family: 'Oswald';
+    src: url('Oswald/Oswald-VariableFont_wght.ttf');
+}
+button{
+    background-color: black;
+    border: none;
+    padding:10px;
+    color:#f5f5f6;
+    height: 60px;
+    outline: none;
+    text-align: center;
+    font-family: 'Oswald';
+}
+ button:hover{
+     background-color: white;
+     color: rgb(0, 0, 209);
+ }
